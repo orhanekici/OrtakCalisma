@@ -19,5 +19,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapGet("/", () => "Merhaba Dünya");
 
 app.Run();
