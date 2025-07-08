@@ -1,0 +1,6 @@
+@OrtakCalisma_HostAddress = http://localhost:5071
+
+GET {{OrtakCalisma_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
